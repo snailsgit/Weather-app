@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="public/styles-result.css">
+
+</head>
+<body>
+    <div class="back-btn" >
+        <a  href="/">
+            <img  class="back"src="public/3781094.png" alt="">
+        </a>
+    </div>
+    <div class="widget">
+        <div class="left-panel panel">
+            <div class="date">
+                <%= dayname %>
+            </div>
+            <div class="date d">
+                <%= todaydate %>
+            </div>
+            <div class="city">
+                <%= city %>
+            </div>
+            <div class="temp">
+                <%= temp %> &deg;<span>c</span>
+            </div>
+            <div class="minmax">
+               <%= temp_min %> &deg;c || <%= temp_max %> &deg;c
+            </div>
+            <div class="info">
+                Feels like <%= tempfeellike %>  &deg; C
+            </div>
+            <div class="info">
+                Right now in <%= city %> it is <%= weatherdes %>
+            </div>
+            
+        </div>
+        <div class="right-panel panel">
+            <img src="<%= iconimg %>" alt="" width="160">
+             
+        </div>
+
+    </div>
+</body>
+</html>
