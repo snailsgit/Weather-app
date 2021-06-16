@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #3EDBF0;
+   }
+
+h1 {
+    margin: 40px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #343a40;
+    font-size: 6rem;
+    color: #ffc107;
+  }
+
+  .header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+   
+   .search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #005A8D;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+   }
+   
+   .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+   }
+   
+   .search-box:hover > .search-btn {
+    background: white;
+    color: black;
+   }
+   
+   .search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #005A8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    font-size: 30px;
+   }
+   
+   .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 32px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 3px;
+
+   }
+
+   ::placeholder { 
+    color: #ffc107;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .search-box {
+      top: 80%;
+    }
+  }
+
+ footer{
+   position: absolute;
+   top: 95%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Indie Flower', cursive;
+   font-weight: bold;
+   font-size: 20px;
+ }

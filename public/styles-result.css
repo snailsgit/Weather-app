@@ -1,0 +1,99 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background: #A685E2;;
+}
+
+div.widget
+{
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 150px auto;
+  background-color: #fcfdfd;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.right-panel
+{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+span{
+    font-size: 40px;
+}
+img{
+    width: 250px;
+}
+div.date
+{
+  font-size: 15px;
+  font-weight: bold;
+  color: #6155A6;
+}
+
+div.d{
+    margin-bottom: 10px;
+}
+
+div.city
+{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+
+div.info
+{
+  font-size: 21px;
+  padding-top: 20px;
+  color: rgba(0,0,0,0.7);
+  
+}
+
+div.temp
+{
+  font-size: 81px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+div.panel
+{
+  display: inline-block;
+}
+
+div.minmax{
+    position: absolute;
+    right: 8%;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+
+
+div.back-btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+ .back{
+     width: 60px;
+ }
